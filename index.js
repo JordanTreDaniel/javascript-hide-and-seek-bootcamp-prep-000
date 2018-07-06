@@ -31,7 +31,7 @@ function deepestChild(elArr = [document.getElementById("grand-node")]) {
 
 }
 
-let increaseRandBy = (n) => {
+let increaseRankBy = (n) => {
   let ranks = document.querySelectorAll(".ranked-list");
   ranks.forEach(
     function(value, i, listObj) {
