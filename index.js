@@ -35,7 +35,7 @@ let increaseRankBy = (n) => {
   let ranks = document.querySelectorAll(".ranked-list");
   ranks.forEach(
     function(value, i, listObj) {
-        value.innerHTML(n + parseInt(value.innerHTML));
+        value.innerHTML =n + parseInt(value.innerHTML);
       }
   )
 }
